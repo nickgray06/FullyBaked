@@ -1,13 +1,11 @@
 import React from 'react'
+import FlipCard from './FlipCard';
 
 export default function JokeCard({joke}) {
 
-    const {setup, delivery} = joke
-
     return (
         <div className="card-bois">
-            <h1>{setup}</h1>
-            <h2>{delivery}</h2>
+          <FlipCard joke={joke}/>
         </div>
     )
 }
