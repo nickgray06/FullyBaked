@@ -15,7 +15,7 @@
   /* background-image: url("./images/frosting.jpg") */
 }
 
-.jokes-div {
+.jokes-list {
   padding-inline-start: 0;
   display: flex;
   width: 90%;
@@ -24,6 +24,7 @@
   justify-content: space-between;
   text-align: center;
   list-style-type: none;
+  background:rgba(255,255,255, 0.5);
 }
 
 header {

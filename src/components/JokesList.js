@@ -8,7 +8,7 @@ export default function JokesList({jokes}) {
     })
     
     return (
-        <div className="jokes-div">
+        <div className="jokes-list">
             {displayJokes()}
         </div>
     )
