@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .card-bois {
@@ -16,6 +17,13 @@
 }
 
 .jokes-list {
+=======
+.card-bois:hover {
+  cursor: help;
+  background-color: rgb(186, 143, 188);
+}
+
+.jokes-div {
   padding-inline-start: 0;
   display: flex;
   width: 90%;
