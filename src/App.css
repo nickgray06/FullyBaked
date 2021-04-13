@@ -6,14 +6,18 @@
 
 .card-bois {
   width: 300px;
-  background-color: rosybrown;
+  background-color: rgba(237,194,242);
   color: white;
   margin: 20px;
   padding: 20px;
   border: 1px;
-  border-radius: 8%;
+  border-radius: 20px;
+  box-shadow: 0 5px rgba(90,81,158);
+  /* background-image: url("./images/frosting.jpg") */
 }
 
+.jokes-list {
+=======
 .card-bois:hover {
   cursor: help;
   background-color: rgb(186, 143, 188);
@@ -28,4 +32,14 @@
   justify-content: space-between;
   text-align: center;
   list-style-type: none;
+  background:rgba(255,255,255, 0.5);
+}
+
+header {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  left: 20px;
+  padding: 20px 50px;
+  background-image: url("header");
 }
