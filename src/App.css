@@ -1,31 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  font-family: 'Permanent Marker', cursive;
 }
 
-.header {
-  position: absolute;
-  top: -40px;
-  right: 20px;
-  left: 20px;
-  padding: 20px 50px;
+h1 {
+  font-size: 4em;
+}
+
+header {
+  padding: 200px 400px;
+  background-repeat: no-repeat;
   background-image: url("./header.png");
-  height: 200px;
+  background-position: center;
+  font-size: 2em;
+  text-align: center;
+  color: rgba(90,81,158);
 }
 
-.bodyody {
+body {
   background-image: url("./Fully-Baked-bg-01.png");
   width: auto 0;
   height: 100vh;
-  position: absolute;
+  /* position: absolute; */
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-
 .card-bois {
-  width: 300px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  width: 200px;
+  height: 250px;
   background-color: rgba(237,194,242);
   color: white;
   margin: 20px;
@@ -33,7 +43,11 @@
   border: 1px;
   border-radius: 20px;
   box-shadow: 0 5px rgba(90,81,158);
-  /* background-image: url("./images/frosting.jpg") */
+  background-image: url("./images/frosting.jpg");
+  font-size: 1.5em;
+  padding-top: 80px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .card-bois:hover {
@@ -41,23 +55,34 @@
   background-color: rgb(186, 143, 188);
 }
 
-.jokes-div {
+.jokes-list {
+  padding: 50px;
   padding-inline-start: 0;
   display: flex;
-  width: 90%;
-  margin: 0 auto;
+  width: calc(100% - 100px);
+  min-height: calc(100vh - 280px);
+  min-height: 300px;
+  margin: 15px auto;
   flex-flow: row wrap;
   justify-content: space-between;
   text-align: center;
   list-style-type: none;
   background:rgba(255,255,255, 0.5);
+  border-radius: 20px;
+  border:rgb(186, 143, 188) solid;
 }
 
-header {
-  position: absolute;
-  top: -40px;
-  right: 20px;
-  left: 20px;
-  padding: 20px 50px;
-  background-image: url("header");
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(222, 138, 98);
+  font-size: 1.5em;
+  background-color: rgb(207, 236, 252);
+  border-radius: 20px;
+}
+
+.button-class {
+  display: flex;
+  justify-content: center;
 }

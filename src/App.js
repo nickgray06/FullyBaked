@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import JokesList from './components/JokesList'
 import Header from './components/Header'
+import Button from './components/Button'
 
 import './App.css'
 
-const jokeURL = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,racist,sexist,explicit&type=twopart&amount=6"
+const jokeURL = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious,racist,sexist,explicit&type=twopart&amount=10"
 
 export default class App extends Component {
 
@@ -24,6 +25,7 @@ export default class App extends Component {
     return (
         <div className="bodyody">
           <Header />
+          <Button />
           <JokesList jokes={this.state.jokes} />
         </div>
     )

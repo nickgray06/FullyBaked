@@ -16,7 +16,7 @@ export default function FlipCard({joke}) {
           {setup}
         </div>
 
-        <div onClick={handleClick}>
+        <div onClick={handleClick} style={{color: 'rgba(222, 138, 98)'}}>
           {delivery}
         </div>
       </ReactCardFlip>

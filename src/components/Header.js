@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div className="header" >
-            <h3>FULLY BAKED</h3>
-        </div>
+        <header>
+            <h1>FULLY BAKED</h1><br />
+            <h4>The place where you come when you're baked</h4>
+        </header>
     )
 }
